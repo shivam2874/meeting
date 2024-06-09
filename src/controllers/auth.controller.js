@@ -11,5 +11,5 @@ export const logout = async (req, res, next) => {
 };
 
 export const refreshToken = async (req, res, next) => {
-  res.send("Heelo from Register");
+  res.send("Heelo from RefreshToken");
 };
